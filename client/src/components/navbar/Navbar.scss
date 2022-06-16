@@ -1,0 +1,9 @@
+@import '../../styles/mixins.scss';
+nav {
+	height: 65px;
+	width: 100%;
+	color: var(--primaryText);
+	@include alignCenter();
+	padding: var(--padding);
+	box-shadow: var(--box-shadow);
+}
